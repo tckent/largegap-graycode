@@ -4,15 +4,15 @@ This project constructs Large-Gap Gray codes (LGGC), which is a special type of 
 A comparison of *Binary Reflected Gray code* and *Large-Gap Gray code* is shown below:
 
 ##### 7-bit Binary Reflected Gray code
-![7-bit Binary Reflected Gray code](http://s29.postimg.org/an3fgnj8n/convgraycode7bit.png "7-bit Binary Reflected Gray code")
+![7-bit Binary Reflected Gray code](doc/7bit-binary-reflected.png "7-bit Binary Reflected Gray code")
 
 ##### 7-bit Large-Gap Gray code
-![7-bit Large-Gap Gray code](http://s11.postimg.org/7p9zzfwcz/graycode7bit_Our.png "7-bit Large-Gap Gray code")
+![7-bit Large-Gap Gray code](doc/7bit-large-gap.png "7-bit Large-Gap Gray code")
 
 They are both cyclic Gray codes with one bit changing between two successive values, however the LGGC is constructed in a way to obtain higher minimum run lengths and lower maximum run lengths along the bit tracks.
 
 ##### Comparison of min/max gaps
-![Comparison of min/max gaps for BRGC and LGGC for various bit widths](http://s10.postimg.org/riy04css9/min_max_gap.png)
+![Comparison of min/max gaps for BRGC and LGGC for various bit widths](doc/min_max_gaps.png)
 
 # Utilization in structured light application
 The codes have been used in a structured light application [2]. The LGGC pattern was projected to a scene and captured by cameras. Afterwards, the pattern was decoded and used for reconstruction of 3D information. 
